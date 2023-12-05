@@ -1,0 +1,97 @@
+* { box-sizing: border-box; }
+body { background-color: #FCEBB6;
+	   background-image: url(fadedroad50.jpg);
+	   background-repeat: no-repeat;
+	   background-size: cover;
+	   background-size: fixed;
+	   color: #221811;
+	   font-family: Tahoma, Arial, sans-serif;
+}
+#wrapper { background-color: #231814;
+		   margin-left: auto;
+		   margin-right: auto;
+		   width: 80%;
+		   min-width: 900px;
+		   max-width: 1280px;
+		   box-shadow: 3px 3px 3px #676767;
+		   padding: 0;
+}
+header { background-color: #D2B48C;
+         background-image: url(coffeelogo.jpg);
+		 background-repeat: no-repeat;
+		  color: #231814;
+		  padding-left: 240px;
+		  padding-top:5px;
+		  padding-bottom: 5px;
+}
+header a { text-decoration: none;}
+header a:link { color: #231814;}
+header a:visited{color: #231814;}
+header a:hover {color: # FEF6C2;}
+
+h1 {line-height: 200%; }
+h2 { color: #8C3826; }
+h3,dt {color: #D2B48C; }
+h4 {background-color: #D2B48C;
+	font-size: 1.2em;
+	padding-left: 0.5em;
+	padding-bottom: 0;
+	text-transform: uppercase;
+	border-bottom: 1px solid #221811;
+	clear: left; 
+	
+	}
+nav { float: left;
+      font-weight: bold;
+	  text-align: center;
+	  font-size: 1.5em;
+	  padding-top: 5px;
+	  padding-bottom: 5px;
+	  width: 200px
+}
+nav a (text-decoration: none;)
+nav a:link { color: #FEF6C2; }
+nav a:visited {color: #D2B48C;}
+nav a:hover {color: #CC9933;}
+nav ul { list-style-type: none;
+padding-left: 0;}
+main {  background-color : #FEF6C2;
+        display: block;
+		margin-left: 200px;
+		overflow: 0 0 2em 0;
+		
+}
+h2,h3,h4,p,div,ul,dl { padding-left: 3em; padding-right: 2em;}
+.details {padding-left:20%;
+		  padding-right:20%;
+		  overflow: auto;}
+.floatleft	{ float: left;
+              padding-right: 2em;
+			  padding-bottom: 2em;
+}
+.onethird { float: left;
+            width: 33%;
+}
+img { padding-left: 10 px;
+	  padding-right: 10 px;}
+#homehero { height:300px;
+			background-image: url(hero.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+}
+#Heromugs { height:300px;
+			background-image: url(heromugs.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+}
+#heroguitar { height:300px;
+			background-image: url(heroguitar.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+}
+
+footer { background-color: #D2B48C;
+		 font-size:.60em;
+		 font-style: italic;
+		 text-align: center;
+}
